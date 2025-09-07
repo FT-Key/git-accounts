@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+
+# Directorios de salida / build (si llegás a generar ejecutables)
+dist/
+build/
+out/
+
+# OS específicos
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Archivos de credenciales sensibles (aunque uses keytar, nunca versionar tokens)
+*.env
+*.key
+*.pem
+*.p12
+
+# Coverage / test
+coverage/

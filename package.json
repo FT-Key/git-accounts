@@ -1,0 +1,33 @@
+{
+  "name": "git-accounts",
+  "version": "1.0.1",
+  "description": "CLI para administrar múltiples cuentas de GitHub en Windows usando keytar. Permite agregar, listar, eliminar y seleccionar cuentas cambiando automáticamente la configuración global de Git.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "git-accounts": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"No hay tests definidos todavía\" && exit 0"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "accounts",
+    "cli",
+    "credentials",
+    "keytar",
+    "windows",
+    "manager"
+  ],
+  "author": "Franco Nicolas Toledo",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "*",
+    "keytar": "*",
+    "simple-git": "*",
+    "yargs": "*"
+  }
+}
