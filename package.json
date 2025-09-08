@@ -1,6 +1,6 @@
 {
   "name": "git-accounts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI para administrar múltiples cuentas de GitHub en Windows usando keytar. Permite agregar, listar, eliminar y seleccionar cuentas cambiando automáticamente la configuración global de Git.",
   "main": "index.js",
   "type": "module",
